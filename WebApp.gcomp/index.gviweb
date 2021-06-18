@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1B8159B0EF77B786C57C896EBE1ADDA0D676A6BF3467EE3511326BF7736C6060EC3AE636FE9900DD7C017A9A77AF3B3D959E98D3B9C8997F434CFD20DC024B08" Timestamp="1D76412E1B4A52C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="37" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<Canvas Id="38" Left="[float]0" Top="[float]0">
+					<Path Data="[PathGeometry]M 39,36 C 39,37.6500015 37.6500015,39 36,39 L 4,39 C 2.3499999,39 1,37.6500015 1,36 L 1,4 C 1,2.3499999 2.3499999,1 4,1 L 36,1 C 37.6500015,1 39,2.3499999 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="39" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.34599996 39,4 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4,39 C 2.34599996,39 1,37.6539993 1,36 L 1,4 C 1,2.34599996 2.34599996,1 4,1 L 36,1 M 36,0 L 4,0 C 1.79999995,0 0,1.79999995 0,4 L 0,36 C 0,38.2000008 1.79999995,40 4,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,4 C 40,1.79999995 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,36 C 38,37.0999985 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.0999985 2,36 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Id="41" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 30.1270008,18.5489998 C 31.2910004,19.2229996 31.2910004,20.3260002 30.1270008,21 L 11.1169996,31.7119999 C 9.95300007,32.3860016 9,31.8369999 9,30.4909992 L 9,9.50899982 C 9,8.16399956 9.95300007,7.61399984 11.1169996,8.28800011 L 30.1270008,18.5489998 Z M 21,19 L 17,19 L 17,15 L 15,15 L 15,19 L 11,19 L 11,21 L 15,21 L 15,25 L 17,25 L 17,21 L 21,21 L 21,19 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="42" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,10 L 38,19 L 35.9080009,19 C 35.7010002,18.4190006 35.1520004,18 34.5,18 C 33.6720009,18 33,18.6720009 33,19.5 C 33,20.3279991 33.6720009,21 34.5,21 C 35.1520004,21 35.7019997,20.5809994 35.9080009,20 L 38,20 L 38,30 L 16.1919994,30 L 30.618,21.8710003 C 31.5,21.3610001 32,20.5979996 32,19.7740002 C 32,18.9500008 31.5,18.1879997 30.6280003,17.6830006 L 16.3929996,10 L 38,10 Z M 2,10 L 2,14 L 4.09200001,14 C 4.29899979,13.4189997 4.84800005,13 5.5,13 C 6.32800007,13 7,13.6719999 7,14.5 C 7,15.3280001 6.32800007,16 5.5,16 C 4.84800005,16 4.29799986,15.5810003 4.09200001,15 L 2,15 L 2,25 L 4.09200001,25 C 4.29899979,24.4190006 4.84800005,24 5.5,24 C 6.32800007,24 7,24.6720009 7,25.5 C 7,26.3279991 6.32800007,27 5.5,27 C 4.84800005,27 4.29799986,26.5809994 4.09200001,26 L 2,26 L 2,30 L 8,30 L 8,10 L 2,10 Z" Fill="[SMSolidColorBrush]#ff62839d" Height="[float]40" Id="43" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+				</Canvas>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="55" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 35" Parameter="d4a1f076595546b889dec31b089aa6a8" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="62ebeb11b88e4ae686cf47da87d53b10" IsReadOnly="[bool]True" Left="[float]0" Name="[string]buton" TabIndex="[int]0" Text="{DataItemBinding Id=d4a1f076595546b889dec31b089aa6a8}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Switch BaseName="[string]Power Button" Height="[float]104" Id="36da79f8cf954085bf71a530ef4cb9a6" IncludeInCapture="[bool]False" Label="[UIModel]e2b81b8fcfc543e2bc3a9065e8f1d221" LabelLinked="[bool]True" Left="[float]436" Shape="[SwitchShape]Power" TabIndex="[int]1" Top="[float]372" Value="{DataItemBinding Id=71ee3a6de650403081413f3d69fb03e6}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<Label Foreground="[SMColor]#ff00a4e5" Height="[float]28" Id="e2b81b8fcfc543e2bc3a9065e8f1d221" IsVisualChild="[bool]False" LabelOwner="[UIModel]36da79f8cf954085bf71a530ef4cb9a6" Left="[float]436" Text="[string]Power Button" Top="[float]340" Visible="[bool]False" Width="[float]144" xmlns="http://www.ni.com/PanelCommon">
+					<FontSetting FontFamily="Franklin Gothic" FontSize="18" FontStyle="Bold" Id="1b9f519debf40d1b4f0ff41d3015ede" xmlns="http://www.ni.com/PlatformFramework" />
+				</Label>
+			</Switch>
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<WhileLoop Bounds="212 110 669 380" DiagramId="17" Id="16">
+				<LoopIteration Bounds="5 350 15 15" Id="18" />
+				<LoopCondition Bounds="605 345 15 15" Id="19" />
+				<Literal Bounds="548 345 25 15" DataType="Boolean" Id="20" Label="21" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>False</p.Data>
+					<BooleanBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="20" Bounds="473 345 30 15" Id="21" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>stop</p.Text>
+				</NodeLabel>
+				<Wire Id="22" Joints="N(20:Out)|(573,350) N(19:Input)|(605,350)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="598 265 40 40" Id="23" />
+				<Literal Bounds="548 280 40 16" DataType="UInt32" Id="24" Label="25" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>50</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+				</Literal>
+				<NodeLabel AttachedTo="24" Bounds="513 280 30 15" Id="25" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>milliseconds to wait</p.Text>
+				</NodeLabel>
+				<Wire Id="26" Joints="N(24:Out)|(588,285) N(23:time to wait)|(598,285)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="363 100 40 15" DataItem="71ee3a6de650403081413f3d69fb03e6" Id="7347195f902d4a7db180fe2f656b8ebf" Label="19092a485bcd4cb5b0188022c076e832" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="7347195f902d4a7db180fe2f656b8ebf" Bounds="284 100 74 14" Id="19092a485bcd4cb5b0188022c076e832" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Power Button</p.Text>
+				</NodeLabel>
+				<Select Bounds="478 75 40 40" Id="b8c6d5cc6b72451f93832ac76e4101bd" />
+				<Wire Id="59cf897c220b4c8d8c2e3fbec36a07ba" Joints="N(7347195f902d4a7db180fe2f656b8ebf:Value)|(403,105) h(64) v(-10) N(b8c6d5cc6b72451f93832ac76e4101bd:s)|(478,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="408 40 40 15" DataType="String" Id="267fa53191bb4450a14eb8b0b7bb68d4" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>a</p.Data>
+					<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+				</Literal>
+				<Wire Id="57aee831b7d240a38e31bcaeb11de7d0" Joints="N(267fa53191bb4450a14eb8b0b7bb68d4:Out)|(448,45) h(19) v(35) N(b8c6d5cc6b72451f93832ac76e4101bd:t)|(478,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="408 140 40 15" DataType="String" Id="e59cb8c7727e4bbda5d283f229249e53" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>b</p.Data>
+					<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+				</Literal>
+				<Wire Id="4aa9ad707a704337a396807841670f0f" Joints="N(e59cb8c7727e4bbda5d283f229249e53:Out)|(448,145) h(6) v(-35) N(b8c6d5cc6b72451f93832ac76e4101bd:f)|(478,110)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="548 90 40 15" DataItem="d4a1f076595546b889dec31b089aa6a8" Id="32fe7787809f4e69bb513887a84483c4" Label="eff8c81c914d48e9aca598dbb34e5306" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="32fe7787809f4e69bb513887a84483c4" Bounds="593 90 32 14" Id="eff8c81c914d48e9aca598dbb34e5306" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>buton</p.Text>
+				</NodeLabel>
+				<Wire Id="e0710f68595745f5a6500065bedd88ba" Joints="N(b8c6d5cc6b72451f93832ac76e4101bd:s? t:f)|(518,95) N(32fe7787809f4e69bb513887a84483c4:Value)|(551,95)" xmlns="http://www.ni.com/PlatformFramework" />
+			</WhileLoop>
+		</BlockDiagram>
+		<HtmlFrontPanel Background="[SMSolidColorBrush]#00ffffff" Height="[float]768" Id="15" LayoutSystem="[LayoutSystem]Absolute" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;index&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;        &lt;style ni-autogenerated-style-id=&quot;&quot;&gt;&#xA;            /* Edits to the content of this style tag will not be persisted. To add additional styles, add a new style tag before or after this one */&#xA;        &lt;/style&gt;&#xA;        &lt;style&gt;&#xA;            body {&#xA;                background-image: url(https://images.unsplash.com/photo-1584275142335-7f7cc7ba6c23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FyJTIwZmFjdG9yeXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;w=1000&amp;q=80);&#xA;                height: 100%;&#xA;                background-position: center;&#xA;                background-repeat: no-repeat;&#xA;                background-size: cover;&#xA;            }&#xA;        &lt;/style&gt;&#xA;&#xA;    &lt;/head&gt;&#xA;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is missing features needed to run this web application. Open this web application in a supported browser.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-title&quot;&gt;&#xA;                Unable to load resource file&#xA;            &lt;/div&gt;&#xA;            &lt;div id=&quot;ni-failed-to-load-vireo-message-body&quot;&gt;&#xA;                Verify all WebVI files are available and served using an HTTP server or use a browser that can load files directly from the file system. See &lt;a href=&quot;http://digital.ni.com/express.nsf/bycode/HOSTWEBAPP&quot;&gt;Hosting a Web Application on a Server&lt;/a&gt;                for more information.&#xA;            &lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;        &lt;div class=&quot;ni-front-panel-wrapper&quot; vi-ref=&quot;&quot; ni-control-id=&quot;FrontPanelWrapper&quot;&gt;&#xA;            &lt;ni-front-panel control-resize-mode='fixed' layout='absolute' ni-control-id='2'&gt;&#xA;&#xA;            &lt;/ni-front-panel&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;    &lt;!-- clock widget start --&gt;&#xA;    &lt;script type=&quot;text/javascript&quot;&gt;&#xA;        var css_file = document.createElement(&quot;link&quot;);&#xA;        css_file.setAttribute(&quot;rel&quot;, &quot;stylesheet&quot;);&#xA;        css_file.setAttribute(&quot;type&quot;, &quot;text/css&quot;);&#xA;        css_file.setAttribute(&quot;href&quot;, &quot;//s.bookcdn.com//css/cl/bw-cl-180x170r2.css?v=0.0.1&quot;);&#xA;        document.getElementsByTagName(&quot;head&quot;)[0].appendChild(css_file);&#xA;    &lt;/script&gt;&#xA;    &lt;div id=&quot;tw_12_1251545696&quot;&gt;&#xA;        &lt;div style=&quot;width:200px; height:240px; margin: 0 auto;&quot;&gt;&lt;a href=&quot;https://bookeder.com/time/isparta-50691&quot;&gt;Isparta&lt;/a&gt;&lt;br&gt;&lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;script type=&quot;text/javascript&quot;&gt;&#xA;        function setWidgetData_1251545696(data)&#xA;        {&#xA;            if (typeof(data) != 'undefined' &amp;&amp; data.results.length &gt; 0)&#xA;            {&#xA;                for (var i = 0; i &lt; data.results.length; ++i)&#xA;                {&#xA;                    var objMainBlock = '';&#xA;                    var params = data.results[i];&#xA;                    objMainBlock = document.getElementById('tw_' + params.widget_type + '_' + params.widget_id);&#xA;                    if (objMainBlock !== null) objMainBlock.innerHTML = params.html_code;&#xA;                }&#xA;            }&#xA;        }&#xA;        var clock_timer_1251545696 = -1;&#xA;        widgetSrc = &quot;https://widgets.booked.net/time/info?ver=2;domid=765;type=12;id=1251545696;scode=124;city_id=50691;wlangid=21;mode=2;details=0;background=ffffff;border_color=ffffff;color=2551c7;add_background=ffffff;add_color=333333;head_color=ffffff;border=0;transparent=0&quot;;&#xA;        var widgetUrl = location.href;&#xA;        widgetSrc += '&amp;ref=' + widgetUrl;&#xA;        var wstrackId = &quot;369761824&quot;;&#xA;        if (wstrackId)&#xA;        {&#xA;            widgetSrc += ';wstrackId=' + wstrackId + ';'&#xA;        }&#xA;        var timeBookedScript = document.createElement(&quot;script&quot;);&#xA;        timeBookedScript.setAttribute(&quot;type&quot;, &quot;text/javascript&quot;);&#xA;        timeBookedScript.src = widgetSrc;&#xA;        document.body.appendChild(timeBookedScript);&#xA;    &lt;/script&gt;&#xA;    &lt;!-- clock widget end --&gt;&#xA;    &lt;script language=&quot;javascript&quot; src=&quot;http://ir.sitekodlari.com/havadurumu1.js&quot;&gt;&lt;/script&gt;&#xA;&#xA;    &lt;marquee align=&quot;middle&quot; scrollamount=&quot;1&quot; height=&quot;30&quot; width=&quot;100%&quot; direction=&quot;up&quot; scrolldelay=&quot;1&quot;&gt;Toplantı:08.30 &lt;/marquee&gt;&#xA;&#x9;&lt;script language=&quot;javascript&quot; src=&quot;http://ir.sitekodlari.com/hesapmakinesi2.js&quot;&gt;&lt;/script&gt;&lt;br&gt;&lt;a href=&quot;http://www.sitekodlari.com/hesapmakinesikodu.php&quot;&gt;&lt;font size=&quot;1&quot;&gt;Sitene Hesap Makinesi Ekle&lt;/font&gt;&lt;/a&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]2048" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+		<DataItem AdaptToDiagramType="True" CallIndex="0" DataType="Boolean" Id="71ee3a6de650403081413f3d69fb03e6" Name="Power Button" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="String" Id="d4a1f076595546b889dec31b089aa6a8" Name="buton" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

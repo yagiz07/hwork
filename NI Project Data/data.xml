@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1C62E356A76DE32F96C6A5A6DA6E5326D7970C8AE5CF7752033D30A07B9220D607990D554D56AF09047D6C521E6F092B3DE34FB6F9F76CB7AAA9BF2907AA5AF5" Timestamp="1D75573FEB2AD47" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<DataIndexDefinition xmlns="http://www.ni.com/Data" />
+	<EnvoyManagerFile Id="6eb77efcfc04f7fb1aa694976387d57" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="16ce4800d04f43f1bd2117f0b210a7f0" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="33478bbda8aa43cb8b7f4f37b0828f01" Name="data.xml" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="5e89bb49e5b4723a6ac47735a8b084f" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2021-05-30 165056 312.tdms" xmlns="http://www.ni.com/Data" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="f2b3e2c1a44746119e589884987d0ec3" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
+				<TDMSRootDefinition StoragePath="Data-2021-05-30 165057 918.tdms" xmlns="http://www.ni.com/Data" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="8a86b639231b467cabc7b5a9c0b43589" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
+				<TDMSRootDefinition StoragePath="Data-2021-05-30 165059 118.tdms" xmlns="http://www.ni.com/Data" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
